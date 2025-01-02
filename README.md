@@ -2,17 +2,6 @@
 
 This repository contains code for a parking system that uses multiple ultrasonic sensors to detect parking spot occupancy and manage parking spot reservations. The system communicates with a microcontroller (TM4C123) using UART, and each sensor controls a corresponding LED to indicate the parking spot's status. The system also supports reserving and unreserving parking spots via UART commands.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [System Overview](#system-overview)
-- [Code Structure](#code-structure)
-- [Hardware Setup](#hardware-setup)
-- [External Dependencies](#external-dependencies)
-- [UART Communication](#uart-communication)
-- [Interrupts and Handlers](#interrupts-and-handlers)
-- [License](#license)
-
 ## Introduction
 
 This code is designed for a TM4C123 microcontroller to manage parking spot reservation using ultrasonic sensors and LED indicators. The system uses three ultrasonic sensors to measure the distance to vehicles in each parking spot, and each parking spot is represented by an LED that changes color based on the spot's status (e.g., occupied, reserved, or available). The system can also manage reservation and unreservation commands sent via UART.

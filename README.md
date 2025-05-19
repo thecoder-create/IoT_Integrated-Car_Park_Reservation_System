@@ -1,6 +1,6 @@
 # IoT_Integrated-Car_Park_Reservation_System
 
-This project contains code for a parking system that uses multiple ultrasonic sensors to detect parking spot occupancy and manage parking spot reservations. The system communicates with a microcontroller (TM4C123) using UART, and each sensor controls a corresponding LED to indicate the parking spot's status. The system also supports reserving and unreserving parking spots via UART commands. To view the lvie demo of this project, please visit this link:https://www.youtube.com/watch?v=Iovayu3T4Dw
+This project contains code for a parking system that uses multiple ultrasonic sensors to detect parking spot occupancy and manage parking spot reservations. The system communicates with a microcontroller (TM4C123) using UART, and each sensor controls a corresponding LED to indicate the parking spot's status. The system also supports reserving and unreserving parking spots via UART commands. To view the live demo of this project, please visit this link: https://www.youtube.com/watch?v=Iovayu3T4Dw
 
 ## Introduction
 
